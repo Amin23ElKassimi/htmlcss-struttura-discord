@@ -4,3 +4,183 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FLOAT Rules */
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+/* Header and Fotter Size */
+main > header, main > footer {
+    height: 100px;
+}
+
+/* Border */
+main > footer{
+    border-top: 1px solid white;
+}
+
+/* Sections Sixe */
+main > section {
+    height: 500px;
+}
+main > .section-big {
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background Colors */
+.background-sky{
+    background-color: skyblue;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-ble{
+    background-color: rgb(50, 84, 233);
+}
+
+.background-palevioletred{
+    background-color: palevioletred;
+}
+
+.background-pink{
+    background-color: pink;
+}
+
+.background-green{
+    background-color: green;
+}
+
+.background-grey{
+    background-color: rgb(165, 159, 159);
+
+}
+
+.background-black{
+    background-color: rgb(34, 31, 31);
+}
+
+.background-marine{
+    background-color: aquamarine;
+}
