@@ -20,7 +20,7 @@
 }
 
 /* Header and Fotter Size */
-main > header, main > footer {
+main > header{
     height: 100px;
     position: relative;
 }
@@ -36,12 +36,6 @@ main > header, main > footer {
     transform: translate(-50%,-50%);
     min-width: 607px;
     font-size: larger;
-}
-.navbar-fotter{
-    position: relative;
-    width: 70%;
-    margin: auto;
-    bottom: 0;
 }
 
 #logo{
@@ -66,7 +60,6 @@ main > header, main > footer {
     text-align: end;
     padding: 2px;
 }
-
 
 
 /* Sections Sixe */
@@ -124,6 +117,23 @@ main > section {
     height: 90%;
     width: 12.5%;
  }
+
+/* Footer */
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.navbar-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+}
+
+
 
 
 /* Borders */
