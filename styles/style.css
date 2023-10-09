@@ -37,16 +37,20 @@ main > header, main > footer {
     min-width: 607px;
     font-size: larger;
 }
+.navbar-fotter{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    bottom: 0;
+}
 
 #logo{
-    border:dashed 2px black;
     float: left;
     width: 20%;
     padding: 2px;
 }
 
 .links{
-    border:dashed 2px black;
     text-align: center;
     float: left;
     width: 60%;
@@ -57,27 +61,20 @@ main > header, main > footer {
 }
 
 #login{
-    border:dashed 2px black;
     float: left;
     width: 20%;
     text-align: end;
     padding: 2px;
 }
 
-/* Borders */
-main > footer{
-    border-top: 1px solid white;
-}
-.dashed-border{
-border:dashed 2px black;
-}
+
 
 /* Sections Sixe */
 main > section {
     height: 500px;
 }
 main > .section-big {
-    height: 700px;
+    height: 900px;
 }
 
 /* Flex Rules */
@@ -87,97 +84,58 @@ main > section {
     align-items: center; 
 }
 
-/* Section01 */
+/* Boxes of Section01 */
 
-.section1-box{
+.box0{
     height: 80%;
     width: 60%;
 }
 
-/* Section 02 to 04 */
+/* Boxes of Section 02 to 04 */
 
 .section-reverted{
     flex-direction: row-reverse;
 }
 
-.box{
-   height:80%;
+.box1{
+   height:90%;
    width:40%; 
 }
-.box1{
-    height:80%;
+.box2{
+    height:90%;
     width:30%; 
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ /* Boxes of Section 05 */
+
+ .box3{
+    height:90%;
+    width:70%;  
+ }
+
+ /* Boxes of Secction 06 */
+
+ .box4{
+    height: 90%;
+    width: 20%;
+ }
+
+ .box5{
+    height: 90%;
+    width: 12.5%;
+ }
+
+
+/* Borders */
+main > footer{
+    border-top: 1px solid white;
+}
+.dashed-border{
+border:dashed 2px black;
+}
+.dashed-border-white{
+    border:dashed 2px rgb(248, 247, 247);
+    }
 
 /* Background Colors */
 .background-sky{
@@ -215,6 +173,9 @@ main > section {
 
 .background-marine{
     background-color: aquamarine;
+}
+.background-darkcyan{
+    background-color: darkcyan;
 }
 
 .background-orange{
