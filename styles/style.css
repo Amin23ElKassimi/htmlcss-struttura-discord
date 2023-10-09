@@ -25,23 +25,10 @@ main > header, main > footer {
     position: relative;
 }
 
-/* Borders */
-main > footer{
-    border-top: 1px solid white;
-}
-
-/* Sections Sixe */
-main > section {
-    height: 500px;
-}
-main > .section-big {
-    height: 700px;
-}
-
 /* -------- Navbar --------  */ 
 /* Float and Position */
 .navbar{
-    width: 50%;
+    width: 70%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -77,48 +64,50 @@ main > .section-big {
     padding: 2px;
 }
 
+/* Borders */
+main > footer{
+    border-top: 1px solid white;
+}
+.dashed-border{
+border:dashed 2px black;
+}
 
+/* Sections Sixe */
+main > section {
+    height: 500px;
+}
+main > .section-big {
+    height: 700px;
+}
 
+/* Flex Rules */
+main > section {    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
+/* Section01 */
 
+.section1-box{
+    height: 80%;
+    width: 60%;
+}
 
+/* Section 02 to 04 */
 
+.section-reverted{
+    flex-direction: row-reverse;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box{
+   height:80%;
+   width:40%; 
+}
+.box1{
+    height:80%;
+    width:30%; 
+ }
 
 
 
